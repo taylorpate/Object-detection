@@ -1,10 +1,14 @@
+The goal of this fork is to run the project on Mac OSX, output video result as an mp4, and export object frame data into an easily accessible data format.
+
 # Object-detection v1
 
 Apply tensorflow object detection on input video stream. One could use webcam (or any other device) stream or send a video file. It is possible to write Output file with detection boxes.
 
 # To use it:
 
-- Requirements: Linux with docker
+- Requirements: OSX with Docker
+
+> brew cask install docker
 
 - Clone repo in your working directory
 
@@ -62,7 +66,7 @@ All possible arguments are:
 
 - Inputs file are in inputs/ folder
 
-- Outputs file are in outputs/ folder (.avi)
+- Outputs file are in outputs/ folder (.mp4)
 
 # Tools versions:
 
