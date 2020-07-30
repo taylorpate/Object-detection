@@ -30,7 +30,7 @@ def video(args):
 
     # Define the codec and create VideoWriter object
     if args["output"]:
-        fourcc = cv2.VideoWriter_fourcc()
+        fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
         out = cv2.VideoWriter('outputs/{}.mp4'.format(args["output_name"]),
                               fourcc, vs.get(cv2.CAP_PROP_FPS),
                               (int(vs.get(cv2.CAP_PROP_FRAME_WIDTH)),
